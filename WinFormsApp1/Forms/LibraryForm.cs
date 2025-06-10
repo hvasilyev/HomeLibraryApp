@@ -78,7 +78,6 @@ namespace HomeLibrary
         private void btnAddBook_Click(object sender, EventArgs e)
         {
             var addBookForm = new AddBookForm(currentUser);
-            //addBookForm.FormClosed += (s, args) => LoadBooks(); // Maybe changed for initial app state.
             addBookForm.FormClosed += (s, args) =>
             {
                 var filteredBooks = LibraryStorage.SearchBooks(currentUser, title, author, genre, language, status, yearFrom, yearTo, minRating, maxRating);

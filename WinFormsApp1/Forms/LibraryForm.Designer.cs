@@ -504,7 +504,7 @@
             Controls.Add(splitContainerMain);
             Controls.Add(panel1);
             Name = "LibraryForm";
-            Text = "LibraryForm";
+            Text = "Home Library";
             panel1.ResumeLayout(false);
             panel5.ResumeLayout(false);
             panel2.ResumeLayout(false);

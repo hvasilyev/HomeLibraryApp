@@ -404,7 +404,7 @@
             Controls.Add(txtAuthor);
             Controls.Add(txtTitle);
             Name = "BookDetailsForm";
-            Text = "BookDetailsForm";
+            Text = "Book Details";
             ((System.ComponentModel.ISupportInitialize)txtYear).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)numRating).EndInit();

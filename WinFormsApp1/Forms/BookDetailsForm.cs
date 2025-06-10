@@ -98,6 +98,12 @@ namespace HomeLibrary
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtTitle.Text) || string.IsNullOrWhiteSpace(txtAuthor.Text))
+            {
+                MessageBox.Show("Fields for Title and Author cannot be empty.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             var updatedBook = new Book
             {
                 Id = originalBook.Id,

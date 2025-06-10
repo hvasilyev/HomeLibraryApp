@@ -292,7 +292,7 @@
             Controls.Add(txtDescription);
             Controls.Add(txtTitle);
             Name = "AddBookForm";
-            Text = "AddBookForm";
+            Text = "Add Book";
             ((System.ComponentModel.ISupportInitialize)numYear).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxPreview).EndInit();
             ((System.ComponentModel.ISupportInitialize)numRating).EndInit();

@@ -12,6 +12,7 @@ namespace HomeLibrary.Models
         NonFiction,
         Technology,
         Science,
+        Horror,
         Fantasy,
         History,
         Biography,

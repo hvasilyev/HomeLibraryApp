@@ -24,6 +24,12 @@ namespace HomeLibrary
             string username = txtNewUsername.Text;
             string password = txtNewPassword.Text;
 
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Username and password cannot be empty.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             if (UserStorage.UserExists(username))
             {
                 MessageBox.Show("User already exists!");

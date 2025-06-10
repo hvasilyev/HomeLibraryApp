@@ -9,7 +9,7 @@ namespace HomeLibrary.Models
     public enum Language
     {
         English,
-        Russian,
+        Ukrainian,
         Spanish,
         French,
         German,

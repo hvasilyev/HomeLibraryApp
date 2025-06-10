@@ -25,7 +25,6 @@ namespace HomeLibrary
 
             if (UserStorage.ValidateLogin(username, password))
             {
-                //MessageBox.Show("Login successful!");
                 LibraryForm libraryForm = new LibraryForm(username);
                 libraryForm.Show();
                 Hide();

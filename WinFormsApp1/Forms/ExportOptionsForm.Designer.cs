@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            radioReadable = new RadioButton();
             radioLibrary = new RadioButton();
+            radioReadable = new RadioButton();
             btnExport = new Button();
             btnCancel = new Button();
             groupBox1.SuspendLayout();
@@ -47,6 +47,17 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Choose Export Format";
             // 
+            // radioLibrary
+            // 
+            radioLibrary.AutoSize = true;
+            radioLibrary.Location = new Point(76, 135);
+            radioLibrary.Name = "radioLibrary";
+            radioLibrary.Size = new Size(309, 29);
+            radioLibrary.TabIndex = 1;
+            radioLibrary.TabStop = true;
+            radioLibrary.Text = "Books Library (Importable Format)";
+            radioLibrary.UseVisualStyleBackColor = true;
+            // 
             // radioReadable
             // 
             radioReadable.AutoSize = true;
@@ -59,21 +70,10 @@
             radioReadable.Text = "Books Information (Inventory)";
             radioReadable.UseVisualStyleBackColor = true;
             // 
-            // radioLibrary
-            // 
-            radioLibrary.AutoSize = true;
-            radioLibrary.Location = new Point(76, 135);
-            radioLibrary.Name = "radioLibrary";
-            radioLibrary.Size = new Size(309, 29);
-            radioLibrary.TabIndex = 1;
-            radioLibrary.TabStop = true;
-            radioLibrary.Text = "Books Library (Importable Format)";
-            radioLibrary.UseVisualStyleBackColor = true;
-            // 
             // btnExport
             // 
             btnExport.DialogResult = DialogResult.OK;
-            btnExport.Location = new Point(143, 363);
+            btnExport.Location = new Point(241, 369);
             btnExport.Name = "btnExport";
             btnExport.Size = new Size(112, 34);
             btnExport.TabIndex = 1;
@@ -105,7 +105,7 @@
             MinimizeBox = false;
             Name = "ExportOptionsForm";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "ExportOptionsForm";
+            Text = "Export Options";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

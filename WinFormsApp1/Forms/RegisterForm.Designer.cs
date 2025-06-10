@@ -101,7 +101,7 @@
             ClientSize = new Size(1072, 695);
             Controls.Add(panel1);
             Name = "RegisterForm";
-            Text = "RegisterForm";
+            Text = "Registration";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
