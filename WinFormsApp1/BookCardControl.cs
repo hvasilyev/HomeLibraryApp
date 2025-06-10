@@ -27,8 +27,6 @@ namespace HomeLibrary
 
             if (!string.IsNullOrEmpty(book.ImagePath) && File.Exists(book.ImagePath))
                 pictureBoxCover.Image = Image.FromFile(book.ImagePath);
-            else
-                pictureBoxCover.Image = Image.FromFile("default_book.jpg");
 
             AttachClickEventRecursively(this);
             Cursor = Cursors.Hand;

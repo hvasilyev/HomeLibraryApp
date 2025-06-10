@@ -59,15 +59,5 @@ namespace HomeLibrary.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] default_book {
-            get {
-                object obj = ResourceManager.GetObject("default_book", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }

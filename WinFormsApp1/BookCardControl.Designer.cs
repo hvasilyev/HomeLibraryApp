@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BookCardControl));
             pnlContainer = new Panel();
             lblAuthor = new Label();
             lblTitle = new Label();
@@ -70,6 +71,7 @@
             // 
             // pictureBoxCover
             // 
+            pictureBoxCover.Image = (Image)resources.GetObject("pictureBoxCover.Image");
             pictureBoxCover.Location = new Point(12, 15);
             pictureBoxCover.Name = "pictureBoxCover";
             pictureBoxCover.Size = new Size(85, 117);

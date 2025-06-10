@@ -61,7 +61,7 @@ namespace HomeLibrary
             // Image
             pictureBox.Image = !string.IsNullOrEmpty(book.ImagePath) && File.Exists(book.ImagePath)
                 ? Image.FromFile(book.ImagePath)
-                : Image.FromFile("default_book.jpg");
+                : pictureBox.Image;
         }
 
         private void ToggleEditMode(bool enabled)
