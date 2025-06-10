@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddBookForm));
             txtTitle = new TextBox();
             txtDescription = new TextBox();
             txtAuthor = new TextBox();
@@ -120,6 +121,7 @@
             // pictureBoxPreview
             // 
             pictureBoxPreview.BorderStyle = BorderStyle.FixedSingle;
+            pictureBoxPreview.Image = (Image)resources.GetObject("pictureBoxPreview.Image");
             pictureBoxPreview.Location = new Point(36, 34);
             pictureBoxPreview.Name = "pictureBoxPreview";
             pictureBoxPreview.Size = new Size(367, 475);

@@ -19,7 +19,7 @@ namespace HomeLibrary
         public AddBookForm(string username)
         {
             InitializeComponent();
-            pictureBoxPreview.Image = Image.FromFile("default_book.jpg");
+            //pictureBoxPreview.Image = Image.FromFile("default_book.jpg");
             comboBoxGenre.DataSource = Enum.GetValues(typeof(Genre));
             comboBoxLanguage.DataSource = Enum.GetValues(typeof(Language));
             comboBoxStatus.DataSource = Enum.GetValues(typeof(BookStatus));
